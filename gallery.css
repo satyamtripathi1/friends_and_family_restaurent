@@ -1,0 +1,71 @@
+.navbar{
+    position: relative;
+}
+
+
+/*  */
+.gallery-banner{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../Images/ourgallery.jpg); 
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.gallery img{
+    border-radius: 18px;
+    margin: 20px;
+}
+
+.gallery img:hover{
+    transition: 1s;
+    transform: scale(1.2);
+    box-shadow: 8px 8px 8px grey;
+
+}
+
+
+/* testimonial */
+.vid{
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.client-head{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .client-head h1{
+  font-family: Playfair Display,serif;
+  font-weight: 400;
+  color: #151515;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .client-head p{
+    color: darkgray;
+  } 
+  #testnom{
+      margin-top: 0;
+      margin-bottom: 15px;
+  }
