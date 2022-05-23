@@ -1,0 +1,420 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar{
+        position: relative;
+    }
+.header{
+    /* border: solid red; */
+    height: 70vh;
+    background-image: url(../Images/sebastian-schuppik-H7xTpvBjJS4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;  
+}
+
+#transbox{
+    background-color:black;
+    opacity: 0.95;
+    height: calc(70vh-80px);
+    width: 100%;
+}
+#abt-head{
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 2vh;
+  background-image: url(../Images/background-1.jfif);
+  background-size: cover;  
+  font-family: 'Fredoka One', cursive;
+}
+#abt-head1{
+    margin-top: 8vh;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 2vh;
+    font-family: 'Fredoka One', cursive;
+
+} 
+.mySlides p{
+    font-size: 28px;
+    font-family: 'Satisfy', cursive;
+}
+
+.about{
+    height: 65vh;
+    /* border: solid beige; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/background-1.jfif);
+    }
+
+    .abt-cont{
+        height: 85%;
+        margin: auto;
+        width: 85%;
+        border: 1px solid gray;
+        box-shadow: 10px 10px 10px gray ;
+        background-image: url(../Images/sean-benesh-Pod30xdRkUg-unsplash.jpg);
+        background-size: cover;
+        
+        
+    }
+    .abt1{
+        background-color:black;
+        opacity: 0.7;
+        height: 100%;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .cont{
+        width: 70%;
+        height: auto;
+        margin: auto;
+        color: white;
+    }
+.teamcontainer{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Images/background-1.jfif);
+    
+}
+#m1{
+    background-image: url(../Images/pexels-taryn-elliott-4457124.jpg);
+    background-size: cover;
+}
+#m2{
+    background-image: url(../Images/pexels-cottonbro-4253302.jpg);
+    background-size: cover;
+}
+#m3{
+    background-image: url(../Images/pexels-cottonbro-3338675.jpg);
+    background-size: cover;
+}
+#m4{
+    background-image: url(../Images/pexels-miquel-ferran-gomez-figueroa-3814446.jpg);
+    background-size: cover;
+}
+#m5{
+    background-image: url(../Images/pexels-sides-imagery-3351927.jpg);
+    background-size: cover;
+}
+#m6{
+    background-image: url(../Images/pexels-tirachard-kumtanom-887827.jpg);
+    background-size: cover;
+}
+#m7{
+    background-image: url(../Images/pexels-cottonbro-4252137.jpg);
+    background-size: cover;
+}
+#m8{
+    background-image: url(../Images/pexels-andrea-piacquadio-3771120.jpg);
+    background-size: cover;
+}
+#m9{
+    background-image: url(../Images/pexels-gustavo-fring-3983699.jpg);
+    background-size: cover;
+}
+#m10{
+    background-image: url(../Images/pexels-tim-douglas-6210788.jpg);
+    background-size: cover;
+}
+#m11{
+    background-image: url(../Images/pexels-cottonbro-7221103.jpg);
+    background-size: cover;
+}
+#m12{
+    background-image: url(../Images/pexels-andrea-piacquadio-3785708.jpg);
+    background-size: cover;
+}
+
+
+slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:lightgray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color:gray;
+}
+
+
+/* for workers */
+.teamcontainer {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .team {
+      
+    /* border: solid gray; */
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    width: 85%;
+    height: 80%;
+    display: none;
+  }
+.prev, .next {
+    background-color:whitesmoke;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev{
+      left: 0;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+
+  .about {
+    position: relative;
+    margin: auto;
+  }
+  /*  */
+  .prev1, .next1 {
+    background-color:whitesmoke;
+    cursor: pointer;
+    position: absolute; 
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(99, 96, 96);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .prev1{
+      left: 0;
+  }
+  /* Position the "next button" to the right */
+  .next1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+
+  /* management */
+  .container{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 40px 0 0 0;
+      margin-top: 0;
+      height:auto;
+  }
+
+  .container .card{
+      position:relative;
+      width: 300px;
+      height: 400px;
+      background: rgba(255,255,255,0.05);
+      margin: 20px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0,0.02);
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .container .card .content{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      opacity: 0.9;
+      transition: 0.5%;
+      transform: translateY(-20px);
+  }
+  .container .card:hover .content{
+      opacity: 1;
+      
+  }
+  .container .card .content .imgbox{
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 10px solid rgba(0, 0, 0, 0.25);
+  }
+  .container .card .content .imgbox img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  .container .card .content .contentbox h3{
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-size: 18px;
+      text-align: center;
+      margin: 20px 0 10px;
+      line-height: 1.1em;
+  }
+  .container .card .content .contentbox h3 span{
+      font-size: 12px;
+      font-weight: 300;
+      text-transform: initial;
+  }
+  .container .card .sci{
+      position: absolute;
+      bottom: 50px;
+      display: flex;
+  }
+  .container .card .sci li{
+      list-style: none;
+      margin:0 10px;
+      transition: 0.5s;
+      opacity: 0.9; 
+  }
+  .container .card:hover .sci li{
+      opacity: 1;
+  }
+  .container .card .sci li a{
+      color: #fff;
+      font-size: 24px;
+  }
+ .container .card{
+      background-color: rgb(31, 29, 29);
+      box-shadow:8px 8px 8px rgb(190, 71, 31) ;
+      
+    }
+  .container{
+      background-image: url(../Images/background-1.jfif);
+  }
+  .container .card:hover{
+      transform: scale(1.05);
+  }
+
+
+
+  /* our team */
+
+  .card-container {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 12px;
+    perspective: 900px;
+    text-align: center;
+}
+.card1 {
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 12px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;  
+  box-shadow:8px 8px 8px rgb(190, 71, 31) ;
+      
+}
+.front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    backface-visibility: hidden;
+  }
+  .front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: black;
+    opacity: 0.7;
+  }
+  
+  .card-container:hover .card1 {
+    transform: rotateY(180deg);
+  }
+  .back {
+    transform: rotateY(180deg);
+  }
+
+
+
+@media(max-width:1080px){
+    .about{
+        height: auto;
+    }
+}
+  
