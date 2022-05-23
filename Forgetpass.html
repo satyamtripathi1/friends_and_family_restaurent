@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Reset Password</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    background-color: #f2f3f8;
+    height: 100vh;
+}
+#ffhead a:hover{
+    color: #ea4335;
+  }
+.card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 15px 1px rgba(52,40,104,.08);
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e5e9f2;
+    border-radius: .2rem;
+}
+    </style>
+</head>
+<body>
+    <div  class="container h-100">
+        <div class="row h-100">
+            <div class="col-sm-10 col-md-8 col-lg-6 mx-auto d-table h-100">
+                <div class="d-table-cell align-middle">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="m-sm-4">
+                                <div class="text-center mt-4">
+                                    <h1 id="ffhead" class="login-heading mb-4 text-center"><a href="../Html/home.html" style="color: rgb(53, 51, 50);text-decoration: none;font-family: 'Pacifico', cursive;" >Friends & Family</a></h1>
+                                    <p class="lead">
+                                        Enter your email to reset your password.
+                                    </p>
+                                    <p class="lead">
+                                        We will send you a link to change password.
+                                    </p>
+                                </div>
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your email">
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <a href="home.html" class="btn btn-lg btn-primary">Reset password</a>
+                                        <br>
+                                        <a href="./login.html" class="btn btn-lg btn-primary" style="margin-top: 10px;">Login</a>
+                                        <!-- <button type="submit" class="btn btn-lg btn-primary">Reset password</button> -->
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
